@@ -19,7 +19,7 @@ As Heroku does not provide a static IP address and freenom only allows directing
   
   
 ## How To Setup
-– Go to "freenom.com" and sign in.  
+– Go to "www.freenom.com" and sign in.  
 – Click on Servces/Register new domain  
 – Search for desired domain and checkout (doing this before login in may cause bugs on the website)  
 – In heroku app settings tab add your domain with "www." prefix (www.example.tk)  
