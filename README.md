@@ -22,11 +22,11 @@ As Heroku does not provide a static IP address and freenom only allows directing
 – Go to "www.freenom.com" and sign in.  
 – Click on Servces/Register new domain  
 – Search for desired domain and checkout (doing this before login in may cause bugs on the website)  
-– In heroku app settings tab add your domain with "www." prefix (www,example.tk)  
+– In heroku app settings tab add your domain with "www," prefix (www,example.tk)  
 – Copy DNS Target you get.  
 – Go to Freenom Services/MyDomains/Manage Domain/Manage Freenom DNS  
 – Add record with  
 Name:www  
 Type: CNAME  
 Target: Paste DNS Target here  
-– Test if your site is loading (make sure to open it with "www.") (may take up to a day to resolve DNS)  
+– Test if your site is loading (make sure to open it with "www,") (may take up to a day to resolve DNS)  
