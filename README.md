@@ -14,15 +14,15 @@ Domain extension may have bad effects for SEO.
 – Blocked domain extension  
 Some company networks may block these 'newcomer' domains  
   
-– Only "www." with Heroku  
-As Heroku does not provide a static IP address and freenom only allows directing the root domain through a A-Record; the domain "www.example.tk" works but not the root domain "example.tk". (I have been unsuccesfully looking for a workaround for this...)
+– Only "www," with Heroku  
+As Heroku does not provide a static IP address and freenom only allows directing the root domain through a A-Record; the domain "www,example.tk" works but not the root domain "example.tk". (I have been unsuccesfully looking for a workaround for this...)
   
   
 ## How To Setup
 – Go to "www.freenom.com" and sign in.  
 – Click on Servces/Register new domain  
 – Search for desired domain and checkout (doing this before login in may cause bugs on the website)  
-– In heroku app settings tab add your domain with "www." prefix (www.example.tk)  
+– In heroku app settings tab add your domain with "www." prefix (www,example.tk)  
 – Copy DNS Target you get.  
 – Go to Freenom Services/MyDomains/Manage Domain/Manage Freenom DNS  
 – Add record with  
